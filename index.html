@@ -162,7 +162,46 @@
 
         .menu-item:hover {
             transform: translateY(-10px);
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
         }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Dee's cakes & more</div>
+                <ul class="nav-links">
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a h        }
 
         .menu-img {
             width: 100%;
@@ -239,46 +278,7 @@
 
         /* Footer */
         footer {
-            background-color: #333;
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-            
-            .hero p {
-                font-size: 1rem;
-            }
-            
-            .nav-links {
-                display: none;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            section {
-                padding: 60px 0;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Header with navigation -->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">Dee's cakes & more</div>
-                <ul class="nav-links">
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#location">Location</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
+ref="#reviews">Reviews</a></li>
                 </ul>
             </nav>
         </div>
